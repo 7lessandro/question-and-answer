@@ -1,0 +1,31 @@
+<!--Header-->
+<%- include ('./partials/header.ejs') %>
+
+<body>
+
+<!--Navbar-->
+<%- include ('./partials/navbar.ejs') %>
+
+    <div class="mt-4 container">
+
+        <div class="card" id="formulario-pergunta">
+            <div class="card-header">
+                <h3 class="text-center">Realizar Pergunta:</h3>
+            </div>
+            <div class="card-body">
+                <form method="POST" action="/salvarpergunta">
+                    <label>Título</label>
+                    <input type="text" placeholder="Título" class="form-control" name="titulo">
+                    <label class="mt-2">Descrição</label>
+                    <textarea placeholder="Descreva sua pergunta aqui" class="form-control" name="descricao"></textarea>
+                    <button class="mt-3 btn btn-success">Perguntar</button>
+                </form>
+            </div>
+        </div>
+
+    </div>
+</body>
+</html>
+
+<!--Footer-->
+<%- include ('./partials/footer.ejs') %>

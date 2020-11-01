@@ -1,0 +1,122 @@
+body {
+    background-color: #eceff1;
+}
+
+.navbar {
+    background: linear-gradient(to right, #eb3349, #f45c43); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+}
+
+#formulario-pergunta {
+    margin-top: 5vh;
+}
+
+header {
+    height:100vh;
+    background-image: url(../img/undraw_connection_b38q.svg);
+    background-size: 50%;
+    background-repeat: no-repeat;
+    background-position: center center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+
+#primeirobotao {
+    position: absolute;
+    bottom: 50px;
+    left: 60px;
+}
+
+#segundobotao {
+    position: absolute;
+    top: 50px;
+    right: 60px;
+}
+
+.perguntar {
+    text-transform: uppercase;
+    border: none;
+    width: 30rem;
+    height: 5.4rem;
+    color: white;
+    background: #2f2e41;
+    font-size: 3rem;
+    text-shadow: 0 1px 0 white;
+    border-radius: 0.8rem;
+    transition: background 1s ease;
+}
+
+.responder {
+    text-transform: uppercase;
+    border: none;
+    width: 30rem;
+    height: 5.4rem;
+    color: white;
+    font-size: 3rem;
+    text-shadow: 0 1px 0 white;
+    border-radius: 0.8rem;
+    background: #2f2e41;
+    transition: background 1s ease;
+}
+
+.perguntar :hover,
+.responder :hover {
+    background:#f45c43;
+}
+
+.navbar-brand {
+    background-image: url(../img/icon-ios7-arrow-back-512.webp) no-repeat;
+}
+
+/*/ Small devices (landscape phones, 576px and up)*/
+@media (max-width: 576px) { 
+    #primeirobotao {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+    }
+    #segundobotao {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+    }
+
+    .perguntar {
+        font-size: 1.9rem;
+        width: 15rem;
+    }
+
+    .responder {
+        font-size: 1.9rem;
+        width: 15rem;
+    }
+ }
+
+/*/ Medium devices (tablets, 768px and up)*/
+@media (max-width: 768px) { 
+    #primeirobotao {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+    }
+    #segundobotao {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+    }
+
+    .perguntar {
+        font-size: 1.9rem;
+        width: 15rem;
+    }
+
+    .responder {
+        font-size: 1.9rem;
+        width: 15rem;
+    }
+ }
