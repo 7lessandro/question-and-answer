@@ -20,7 +20,7 @@
         <br>
 - EJS
         <br>
-- MYSQ L</p>
+- MySQL</p>
 
 <h1 align="left">
     :rotating_light: Instalação
