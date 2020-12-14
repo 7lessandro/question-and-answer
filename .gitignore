@@ -102,3 +102,4 @@ dist
 
 # Arquivo de porta TernJS
 .tern-port
+node_modules
